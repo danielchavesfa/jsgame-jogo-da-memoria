@@ -51,7 +51,7 @@ Esse é um exemplo de você fazer uma cópia e fazer as devidas configurações 
 Além de você poder testar online clicando [nesse link](https://github.com/danielchavesfa/jsgame-jogo-da-memoria) você também pode baixar o projeto e abrir o arquivo index.html.
 
 ```sh
-git clone
+git clone https://github.com/danielchavesfa/jsgame-jogo-da-memoria.git
 ```
 
 <p  align="right"><small>(<a  href="#top">Voltar ao topo</a>)</small></p>
