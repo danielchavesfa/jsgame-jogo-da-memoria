@@ -1,0 +1,31 @@
+.header-bg {
+  background-color: #2bd1ff3f;
+  backdrop-filter: blur(5px);
+  border-bottom: 1px solid #FFCE31;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.header > .title-content > h1 {
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.header>.title-content>h1 span:nth-child(2) {
+  font-size: .8rem;
+  font-weight: 600;
+}
+
+.title-content>p {
+  font-size: .8rem;
+}
+
+.title-content abbr {
+  text-decoration: none;
+}

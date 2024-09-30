@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Jogo da memória feito com emojis, divirta-se! Melhor jogo para concentração e melhorar sua atenção.">
+  <title>Jogo da Memória 🤓 | JavaScript Emoji Game</title>
+  <link rel="shortcut icon" href="./src/imgs/icon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./src/css/style.css">
+  <script>document.documentElement.className += ' js';</script>
+</head>
+
+<body>
+  <div id="memory-game-container">
+    <header class="header-bg">
+      <div class="container header">
+        <div class="logo">
+          <img src="./src/imgs/cards-logo.svg" width="100" alt="Leque de 4 cartas">
+        </div>
+        <div class="title-content">
+          <h1>
+            <span>Jogo da Memória:</span>
+            <span>Melhor jogo para concentração e melhorar sua atenção.</span>
+          </h1>
+          <p>Feito completamente em <abbr title="JavaScript">JS</abbr> Vanilla, divirta-se! <span role="img"
+              aria-label="rosto com olhar maravilhado" lang="pt">🤩</span></p>
+        </div>
+      </div>
+    </header>
+
+    <section id="game">
+      <div class="container game">
+        <ul class="card-list" data-cards="list"></ul>
+      </div>
+    </section>
+
+    <footer class="footer-bg">
+      <div class="container footer">
+        <p>
+          Desenvolvido por Daniel Chaves <span role="img" aria-label="coração brilhante" lang="pt">💖</span>
+        </p>
+        <ul class="social-medias">
+          <li>
+            Quer ver mais projetos do meu GitHub? <a href="https://github.com/danielchavesfa" target="_blank"
+              rel="noopener noreferrer">GitHub</a>
+          </li>
+          <li>
+            Quer falar comigo no LinkedIn? <a href="https://www.linkedin.com/in/danielchavesfa/" target="_blank"
+              rel="noopener noreferrer">LinkedIn</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <canvas id="canvas"></canvas>
+  </div>
+  <script type="module" src="./src/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+.footer-bg {
+  border-top: 1px solid #FFCE31;
+  background-color: #2bd1ff3f;
+  backdrop-filter: blur(5px);
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer .social-medias {
+  font-size: .8rem;
+}
+
+.footer .social-medias a {
+  color: #fff;
+}

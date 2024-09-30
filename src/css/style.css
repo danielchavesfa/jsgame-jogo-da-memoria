@@ -1,0 +1,73 @@
+@import url('./header.css');
+@import url('./main.css');
+@import url('./footer.css');
+@import url('./canvas.css');
+
+:root {
+  --main-font: "Nunito", sans-serif;
+  --font-color: #fff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--main-font);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1000px;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+#memory-game-container {
+  min-height: 100dvh;
+  background-image: linear-gradient(135deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+  color: var(--font-color);
+  background-size: 200%;
+  animation: 10s infinite alternate ease-in-out move-bg;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+/* KEYFRAMES */
+
+@keyframes move-bg {
+  from {
+    background-position: left;
+  }
+
+  to {
+    background-position: right;
+  }
+}
+
+/* MEDIA */
+
+@media (max-width: 450px) {
+  .header .logo > img {
+    width: 75px;
+  }
+
+  .header>.title-content > h1 span:nth-child(2) {
+    display: none;
+  }
+
+  .header .title-content > p {
+    display: none;
+  }
+
+  .footer {
+    display: block;
+  }
+}
